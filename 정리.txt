@@ -1,3 +1,6 @@
-git branch fresh
-git switch fresh
-git log --oneline --all --graph
+브랜치 생성 git branch fresh
+브랜치 이동 git switch fresh
+브랜치 합치기(기준브랜치에서) git merge fresh
+브랜치 삭제 git branch -d fresh
+충돌해결은 코드 고치고 git add & git commit
+로그 그래프로 보기 git log --oneline --all --graph
