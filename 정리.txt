@@ -1,0 +1,3 @@
+git branch fresh
+git switch fresh
+git log --oneline --all --graph
