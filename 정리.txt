@@ -1,6 +1,12 @@
+git push -u 원격저장소주소(origin) main : -u : 방금 입력한 주소 기억하기 
+마스터면 메인으로 바꾸기 git branch -M main
 브랜치 생성 git branch fresh
-브랜치 이동 git switch fresh
-브랜치 합치기(기준브랜치에서) git merge fresh
-브랜치 삭제 git branch -d fresh
+브랜치 이동 git switch fresh 
+브랜치 합치기(기준브랜치에서) git merge fresh /메인브랜치 로그만 깔끔하게 남기고싶을때 git merge --squash fresh
+(덜 중요하면 sqush,중요하면 3-way merge)
+브랜치 삭제 git branch -d fresh /강제삭제 -D
 충돌해결은 코드 고치고 git add & git commit
 로그 그래프로 보기 git log --oneline --all --graph
+
+--쉽게설명하는 git기초 4강 11분--코드짜다가 실수했다 되돌아가자
+파일복구 git restore 파일명 
